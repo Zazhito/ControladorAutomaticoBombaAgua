@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BORNERA-2")(type "KiCad")(uri "C:/Users/Lucas/Documents/LibreriasKicad/BORNERA_2/BORNERA-2.kicad_sym")(options "")(descr ""))
+  (lib (name "B3B-XH-A")(type "KiCad")(uri "C:/Users/Lucas/Documents/LibreriasKicad/JST_XH_3/B3B-XH-A.kicad_sym")(options "")(descr ""))
+)
