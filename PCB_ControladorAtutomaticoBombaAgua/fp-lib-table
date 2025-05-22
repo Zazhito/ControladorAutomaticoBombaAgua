@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "BORNERA_2")(type "KiCad")(uri "C:/Users/Lucas/Documents/LibreriasKicad/BORNERA_2")(options "")(descr ""))
   (lib (name "JST_XH_3")(type "KiCad")(uri "C:/Users/Lucas/Documents/LibreriasKicad/JST_XH_3")(options "")(descr ""))
+  (lib (name "Huellas")(type "KiCad")(uri "${KIPRJMOD}/Huellas.pretty")(options "")(descr ""))
+  (lib (name "JST_XH_2")(type "KiCad")(uri "C:/Users/Lucas/Documents/LibreriasKicad/JST_XH_2")(options "")(descr ""))
 )

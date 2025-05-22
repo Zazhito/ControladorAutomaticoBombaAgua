@@ -980,6 +980,233 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "B2B-XH-A:B2B-XH-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B2B-XH-A"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B2B-XH-A:JST_B2B-XH-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST Sales America Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B2B-XH-A_0_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.175 2.2225)
+					(end -1.5875 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -3.175 -0.3175)
+					(end -1.5875 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "B3B-XH-A:B3B-XH-A"
 			(pin_names
 				(offset 1.016)
@@ -1280,16 +1507,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "On Shore"
+			(property "Description" "TERMINAL BLOCK 3.5MM 2POS PCB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1299,7 +1517,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
+			(property "MF" "On Shore"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4146,147 +4364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BORNERA-2:282837-2")
-		(at 34.29 31.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1455dc58-0fc2-4de6-bbcc-8d6da7bfb40c")
-		(property "Reference" "P1"
-			(at 30.48 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V"
-			(at 30.48 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BORNERA_2:BORNERA-2"
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "On Shore"
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "TERMINAL BLOCK 3.5MM 2POS PCB"
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "0.28 USD"
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "G3"
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "OSTTE020104"
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Good"
-			(at 34.29 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a3e4b16-f158-408f-a3b6-30e75e7b3332")
-		)
-		(pin "2"
-			(uuid "22a989a7-845c-4091-800d-4f2d97f644c7")
-		)
-		(instances
-			(project ""
-				(path "/35f5c762-a421-4196-95d1-4e635d688832"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:NEUT")
 		(at 242.57 113.03 180)
 		(unit 1)
@@ -4837,7 +4914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 29.21 76.2 0)
 			(effects
 				(font
@@ -5109,46 +5186,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "75f009e6-7195-43a7-8cfb-a795ad919f65")
+			(uuid "75f009e6-7195-43a7-8cfb-a795ad919f66")
 		)
 		(pin "3"
-			(uuid "58c37613-6665-41b6-a19d-c4dd14a877ea")
+			(uuid "58c37613-6665-41b6-a19d-c4dd14a877eb")
 		)
 		(pin "1"
-			(uuid "c368d891-07e6-40b0-beb7-4a2c5bfe6610")
+			(uuid "c368d891-07e6-40b0-beb7-4a2c5bfe6611")
 		)
 		(pin "5"
-			(uuid "4ae3c254-4954-4ea8-8f73-f16e3562123a")
+			(uuid "4ae3c254-4954-4ea8-8f73-f16e3562123b")
 		)
 		(pin "6"
-			(uuid "3aed2ce1-9081-4b23-a3e3-1a0c9a1cdaba")
+			(uuid "3aed2ce1-9081-4b23-a3e3-1a0c9a1cdabb")
 		)
 		(pin "4"
-			(uuid "1506dd67-e6d2-48ed-94bc-98ff807caeb3")
+			(uuid "1506dd67-e6d2-48ed-94bc-98ff807caeb4")
 		)
 		(pin "11"
-			(uuid "309bf824-a28d-45f4-8f35-54ca23231179")
+			(uuid "309bf824-a28d-45f4-8f35-54ca2323117a")
 		)
 		(pin "10"
-			(uuid "c357fb4c-9d18-48aa-a494-16d116d8971b")
+			(uuid "c357fb4c-9d18-48aa-a494-16d116d8971c")
 		)
 		(pin "9"
-			(uuid "0f351197-4188-4826-b7ab-b51581d5c8f9")
+			(uuid "0f351197-4188-4826-b7ab-b51581d5c8fa")
 		)
 		(pin "14"
-			(uuid "43445d5c-0f1e-46e0-bce5-7674ed1d2ac0")
+			(uuid "43445d5c-0f1e-46e0-bce5-7674ed1d2ac1")
 		)
 		(pin "12"
-			(uuid "ffed572e-ae31-4086-9f5e-7164e556dbf6")
+			(uuid "ffed572e-ae31-4086-9f5e-7164e556dbf7")
 		)
 		(pin "13"
-			(uuid "3b1951ee-beee-4504-b874-6c6f2eb80d75")
+			(uuid "3b1951ee-beee-4504-b874-6c6f2eb80d76")
 		)
 		(pin "8"
-			(uuid "711b11e9-0819-4349-aad2-279ce07ea44b")
+			(uuid "711b11e9-0819-4349-aad2-279ce07ea44c")
 		)
 		(pin "7"
-			(uuid "4f370b26-327d-40c6-a500-d4a15e15eaa5")
+			(uuid "4f370b26-327d-40c6-a500-d4a15e15eaa6")
 		)
 		(instances
 			(project ""
@@ -5393,7 +5470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 55.88 58.42 0)
 			(effects
 				(font
@@ -5526,7 +5603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 55.88 76.2 0)
 			(effects
 				(font
@@ -5593,7 +5670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 194.31 110.49 0)
 			(effects
 				(font
@@ -5773,46 +5850,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "75f009e6-7195-43a7-8cfb-a795ad919f65")
+			(uuid "75f009e6-7195-43a7-8cfb-a795ad919f67")
 		)
 		(pin "3"
-			(uuid "58c37613-6665-41b6-a19d-c4dd14a877ea")
+			(uuid "58c37613-6665-41b6-a19d-c4dd14a877ec")
 		)
 		(pin "1"
-			(uuid "c368d891-07e6-40b0-beb7-4a2c5bfe6610")
+			(uuid "c368d891-07e6-40b0-beb7-4a2c5bfe6612")
 		)
 		(pin "5"
-			(uuid "4ae3c254-4954-4ea8-8f73-f16e3562123a")
+			(uuid "4ae3c254-4954-4ea8-8f73-f16e3562123c")
 		)
 		(pin "6"
-			(uuid "3aed2ce1-9081-4b23-a3e3-1a0c9a1cdaba")
+			(uuid "3aed2ce1-9081-4b23-a3e3-1a0c9a1cdabc")
 		)
 		(pin "4"
-			(uuid "1506dd67-e6d2-48ed-94bc-98ff807caeb3")
+			(uuid "1506dd67-e6d2-48ed-94bc-98ff807caeb5")
 		)
 		(pin "11"
-			(uuid "309bf824-a28d-45f4-8f35-54ca23231179")
+			(uuid "309bf824-a28d-45f4-8f35-54ca2323117b")
 		)
 		(pin "10"
-			(uuid "c357fb4c-9d18-48aa-a494-16d116d8971b")
+			(uuid "c357fb4c-9d18-48aa-a494-16d116d8971d")
 		)
 		(pin "9"
-			(uuid "0f351197-4188-4826-b7ab-b51581d5c8f9")
+			(uuid "0f351197-4188-4826-b7ab-b51581d5c8fb")
 		)
 		(pin "14"
-			(uuid "43445d5c-0f1e-46e0-bce5-7674ed1d2ac0")
+			(uuid "43445d5c-0f1e-46e0-bce5-7674ed1d2ac2")
 		)
 		(pin "12"
-			(uuid "ffed572e-ae31-4086-9f5e-7164e556dbf6")
+			(uuid "ffed572e-ae31-4086-9f5e-7164e556dbf8")
 		)
 		(pin "13"
-			(uuid "3b1951ee-beee-4504-b874-6c6f2eb80d75")
+			(uuid "3b1951ee-beee-4504-b874-6c6f2eb80d77")
 		)
 		(pin "8"
-			(uuid "711b11e9-0819-4349-aad2-279ce07ea44b")
+			(uuid "711b11e9-0819-4349-aad2-279ce07ea44d")
 		)
 		(pin "7"
-			(uuid "4f370b26-327d-40c6-a500-d4a15e15eaa5")
+			(uuid "4f370b26-327d-40c6-a500-d4a15e15eaa7")
 		)
 		(instances
 			(project ""
@@ -6974,6 +7051,115 @@
 		)
 	)
 	(symbol
+		(lib_id "B2B-XH-A:B2B-XH-A")
+		(at 34.29 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7405c54-fda4-4e35-96b7-506a26753f35")
+		(property "Reference" "J2"
+			(at 34.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Alimen/Control"
+			(at 34.29 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JST_XH_2:JST_B2B-XH-A"
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7 mm"
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales America Inc."
+			(at 34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30cbf9b0-6614-45b1-9d4e-61558b976c14")
+		)
+		(pin "2"
+			(uuid "1f361aeb-793a-461c-a075-8c65470ee67b")
+		)
+		(instances
+			(project ""
+				(path "/35f5c762-a421-4196-95d1-4e635d688832"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 104.14 30.48 0)
 		(unit 1)
@@ -7223,7 +7409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 			(at 29.21 58.42 0)
 			(effects
 				(font
@@ -7317,46 +7503,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "75f009e6-7195-43a7-8cfb-a795ad919f65")
+			(uuid "75f009e6-7195-43a7-8cfb-a795ad919f68")
 		)
 		(pin "3"
-			(uuid "58c37613-6665-41b6-a19d-c4dd14a877ea")
+			(uuid "58c37613-6665-41b6-a19d-c4dd14a877ed")
 		)
 		(pin "1"
-			(uuid "c368d891-07e6-40b0-beb7-4a2c5bfe6610")
+			(uuid "c368d891-07e6-40b0-beb7-4a2c5bfe6613")
 		)
 		(pin "5"
-			(uuid "4ae3c254-4954-4ea8-8f73-f16e3562123a")
+			(uuid "4ae3c254-4954-4ea8-8f73-f16e3562123d")
 		)
 		(pin "6"
-			(uuid "3aed2ce1-9081-4b23-a3e3-1a0c9a1cdaba")
+			(uuid "3aed2ce1-9081-4b23-a3e3-1a0c9a1cdabd")
 		)
 		(pin "4"
-			(uuid "1506dd67-e6d2-48ed-94bc-98ff807caeb3")
+			(uuid "1506dd67-e6d2-48ed-94bc-98ff807caeb6")
 		)
 		(pin "11"
-			(uuid "309bf824-a28d-45f4-8f35-54ca23231179")
+			(uuid "309bf824-a28d-45f4-8f35-54ca2323117c")
 		)
 		(pin "10"
-			(uuid "c357fb4c-9d18-48aa-a494-16d116d8971b")
+			(uuid "c357fb4c-9d18-48aa-a494-16d116d8971e")
 		)
 		(pin "9"
-			(uuid "0f351197-4188-4826-b7ab-b51581d5c8f9")
+			(uuid "0f351197-4188-4826-b7ab-b51581d5c8fc")
 		)
 		(pin "14"
-			(uuid "43445d5c-0f1e-46e0-bce5-7674ed1d2ac0")
+			(uuid "43445d5c-0f1e-46e0-bce5-7674ed1d2ac3")
 		)
 		(pin "12"
-			(uuid "ffed572e-ae31-4086-9f5e-7164e556dbf6")
+			(uuid "ffed572e-ae31-4086-9f5e-7164e556dbf9")
 		)
 		(pin "13"
-			(uuid "3b1951ee-beee-4504-b874-6c6f2eb80d75")
+			(uuid "3b1951ee-beee-4504-b874-6c6f2eb80d78")
 		)
 		(pin "8"
-			(uuid "711b11e9-0819-4349-aad2-279ce07ea44b")
+			(uuid "711b11e9-0819-4349-aad2-279ce07ea44e")
 		)
 		(pin "7"
-			(uuid "4f370b26-327d-40c6-a500-d4a15e15eaa5")
+			(uuid "4f370b26-327d-40c6-a500-d4a15e15eaa8")
 		)
 		(instances
 			(project ""
@@ -7689,46 +7875,46 @@
 			)
 		)
 		(pin "2"
-			(uuid "75f009e6-7195-43a7-8cfb-a795ad919f65")
+			(uuid "75f009e6-7195-43a7-8cfb-a795ad919f69")
 		)
 		(pin "3"
-			(uuid "58c37613-6665-41b6-a19d-c4dd14a877ea")
+			(uuid "58c37613-6665-41b6-a19d-c4dd14a877ee")
 		)
 		(pin "1"
-			(uuid "c368d891-07e6-40b0-beb7-4a2c5bfe6610")
+			(uuid "c368d891-07e6-40b0-beb7-4a2c5bfe6614")
 		)
 		(pin "5"
-			(uuid "4ae3c254-4954-4ea8-8f73-f16e3562123a")
+			(uuid "4ae3c254-4954-4ea8-8f73-f16e3562123e")
 		)
 		(pin "6"
-			(uuid "3aed2ce1-9081-4b23-a3e3-1a0c9a1cdaba")
+			(uuid "3aed2ce1-9081-4b23-a3e3-1a0c9a1cdabe")
 		)
 		(pin "4"
-			(uuid "1506dd67-e6d2-48ed-94bc-98ff807caeb3")
+			(uuid "1506dd67-e6d2-48ed-94bc-98ff807caeb7")
 		)
 		(pin "11"
-			(uuid "309bf824-a28d-45f4-8f35-54ca23231179")
+			(uuid "309bf824-a28d-45f4-8f35-54ca2323117d")
 		)
 		(pin "10"
-			(uuid "c357fb4c-9d18-48aa-a494-16d116d8971b")
+			(uuid "c357fb4c-9d18-48aa-a494-16d116d8971f")
 		)
 		(pin "9"
-			(uuid "0f351197-4188-4826-b7ab-b51581d5c8f9")
+			(uuid "0f351197-4188-4826-b7ab-b51581d5c8fd")
 		)
 		(pin "14"
-			(uuid "43445d5c-0f1e-46e0-bce5-7674ed1d2ac0")
+			(uuid "43445d5c-0f1e-46e0-bce5-7674ed1d2ac4")
 		)
 		(pin "12"
-			(uuid "ffed572e-ae31-4086-9f5e-7164e556dbf6")
+			(uuid "ffed572e-ae31-4086-9f5e-7164e556dbfa")
 		)
 		(pin "13"
-			(uuid "3b1951ee-beee-4504-b874-6c6f2eb80d75")
+			(uuid "3b1951ee-beee-4504-b874-6c6f2eb80d79")
 		)
 		(pin "8"
-			(uuid "711b11e9-0819-4349-aad2-279ce07ea44b")
+			(uuid "711b11e9-0819-4349-aad2-279ce07ea44f")
 		)
 		(pin "7"
-			(uuid "4f370b26-327d-40c6-a500-d4a15e15eaa5")
+			(uuid "4f370b26-327d-40c6-a500-d4a15e15eaa9")
 		)
 		(instances
 			(project ""
@@ -7767,7 +7953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 120.65 88.9 0)
 			(effects
 				(font
